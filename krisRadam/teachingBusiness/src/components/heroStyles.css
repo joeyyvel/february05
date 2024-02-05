@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cName {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.homePicture {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 10px;
+  border-radius: 2rem;
+}
+
+.home-aboutPage {
+  width: 100%;
+  height: 100vh;
+}
+
+.home-text h1 {
+  position: absolute;
+  color: aliceblue;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popDestination {
+  color: red;
+}
+
+.home-text p {
+  font-size: 1.3rem;
+  color: #260c3b;
+  font-weight: 600;
+  text-align: center;
+  padding: 0.5rem 0 2rem 0;
+}
+/*---
+  .home-text a {
+    border: 3px solid blue;
+    padding: 5px;
+    border-radius: 8px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: orange;
+  }
+  ------*/
+
+/*---------Travel plan button --------*/
+.home-text .show {
+  text-decoration: none;
+  background-color: rgb(82, 71, 240);
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  color: white;
+  margin-left: 40%;
+}
+.home-text .hide {
+  display: none;
+}
+
+@media screen and (max-width: 555px) {
+  .home-text h1 {
+    padding: 10px 20px;
+  }
+  .home-text p {
+    font-size: 1.3rem;
+    padding: 0 0 2rem 0;
+  }
+  .home-text .show {
+    padding: 0.6rem 1.1;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgb(82, 71, 240);
+    margin-left: 35%;
+  }
+}
